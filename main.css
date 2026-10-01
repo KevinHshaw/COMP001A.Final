@@ -4,7 +4,55 @@ body {
     padding: 0;
     background-color: #f8f8f8;
 }
-.class {
+p#prize {
+    font-size: 16px;
+    color: #5c0606;
+    background-color: #d16b6b;
+}
+section.body {
     font-size: 16px;
     color: #333;
-    
+    background-color: #f0e5e5;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #791414;
+}
+table, th, td {
+    border: 1px solid #333;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    background-color: #fafafa;
+}
+ul, li {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #a12e2e;
+}
+ol, li{
+    margin-bottom: 5px;
+}
+p {
+    color: #aa3131;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #382727;
+    text-align: center;
+    padding: 10px 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4 {
+    color: #147279;
+    margin-bottom: 10px;
+}
+a {
+    color: #c0b62e;
+    text-decoration: none;
+}
